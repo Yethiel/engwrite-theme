@@ -7,15 +7,27 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   border: 0;
 }
 
+/* FONTS
+=============================================================================*/
+
+@font-face {
+    font-family: 'Computer Modern Serif Roman';
+    font-style: normal;
+    font-weight: normal;
+    src: url(./mathwrite/cmunrm.ttf);
+}
+
 /* BODY
 =============================================================================*/
 
 body {
-  font-family: Georgia,Palatino, serif;
-  font-size: 14px;
+  font-family: Computer Modern Serif Roman, Georgia, Palatino, serif;
+  /*font-size: 14px;*/
+  font-size: 20px;
   line-height: 1.6;
   color: #333;
-  background-color: #FCF5ED;
+  /*background-color: #FCF5ED;*/
+  background-color: #FFFFFF;
   padding: 20px;
   max-width: 960px;
   margin: 0 auto;
@@ -42,7 +54,8 @@ p, blockquote, ul, ol, dl, table, pre {
 h1, h2, h3, h4, h5, h6 {
   margin: 20px 0 10px;
   padding: 0;
-  font-weight: 500;
+  /*font-weight: 500;*/
+  font-weight: bold;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -54,13 +67,14 @@ h1 {
   font-weight: 300;
   text-align: center;
   font-size: 28px;
-  color: #933D3F;
+  /*color: #933D3F;*/
 }
 
 h2 {
   font-size: 24px;
   border-bottom: 1px solid #ccc;
-  color: #000;
+  /*color: #000;*/
+  color: #1A1A1A;
 }
 
 h3 {
@@ -225,11 +239,15 @@ kbd {
 =============================================================================*/
 
 blockquote {
-  border-top: 1px dotted #CDC7BC;
-  border-bottom: 1px dotted #CDC7BC;
+  /*border-top: 1px dotted #CDC7BC;*/
+  border-top: 2px dotted #A1A1A1;
+  /*border-bottom: 1px dotted #CDC7BC;*/
+  border-bottom: 2px dotted #A1A1A1;
   padding: 0 15px;
-  background-color: #F8EDDA;
-  color: #777;
+  /*background-color: #F8EDDA;*/
+  background-color: #EDEDED;
+  /*color: #777;*/
+  color: #404040;
 }
 
 blockquote>:first-child {

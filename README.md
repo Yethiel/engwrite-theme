@@ -1,9 +1,6 @@
-# Engwrite
+# Mathwrite
 
-This is an [english-stackexchange-like](http://english.stackexchange.com/) theme, especially suitable for writing in english.
+This is a Typora theme based on (qqdaiy55's Engwrite theme)[https://github.com/qqdaiyu55/engwrite-theme].
 
-## Preview
 
-![1](http://i.imgur.com/FmsQVON.png)
-
-![2](http://i.imgur.com/3teJxn8.png)
+Included fonts (Computer Modern) are under the SIL Open Font License.
