@@ -18,6 +18,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 @font-face {
+    font-family: 'CMU Serif Roman';
+    font-style: normal;
+    font-weight: bold;
+    src: url(./mathwrite/computer_modern_serif_bold.ttf);
+}
+
+@font-face {
     font-family: 'CMU Typewriter Text Regular';
     font-style: normal;
     font-weight: normal;
@@ -119,7 +126,7 @@ h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
 =============================================================================*/
 
 a {
-  color: #AE3737;
+  /*color: #AE3737;*/
   text-decoration: none;
 }
 
@@ -214,7 +221,7 @@ pre>code {
 pre {
   background-color: #f8f8f8;
   border: 1px solid #ccc;
-  font-size: 13px;
+  font-size: 18px;
   line-height: 19px;
   overflow: auto;
   padding: 6px 10px;
