@@ -11,17 +11,24 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 =============================================================================*/
 
 @font-face {
-    font-family: 'Computer Modern Serif Roman';
+    font-family: 'CMU Serif Roman';
     font-style: normal;
     font-weight: normal;
-    src: url(./mathwrite/cmunrm.ttf);
+    src: url(./mathwrite/computer_modern_serif_roman.ttf);
+}
+
+@font-face {
+    font-family: 'CMU Typewriter Text Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url(./mathwrite/computer_modern_typewriter_text_regular.ttf);
 }
 
 /* BODY
 =============================================================================*/
 
 body {
-  font-family: Computer Modern Serif Roman, Georgia, Palatino, serif;
+  font-family: CMU Serif Roman, Georgia, Palatino, serif;
   /*font-size: 14px;*/
   font-size: 20px;
   line-height: 1.6;
@@ -181,8 +188,9 @@ dl dd>:last-child {
 =============================================================================*/
 
 pre, code, tt {
-  font-size: 12px;
-  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  /*font-size: 12px;*/
+  font-size: 20px;
+  font-family: CMU Typewriter Text Regular, Consolas, "Liberation Mono", Courier, monospace;
 }
 
 code, tt {
@@ -190,7 +198,8 @@ code, tt {
   padding: 0px 0px;
   white-space: nowrap;
   border: 1px solid #eaeaea;
-  background-color: #F4ECE3;
+  /*background-color: #F4ECE3;*/
+  background-color: #EDEDED;
   border-radius: 3px;
 }
 
@@ -247,7 +256,6 @@ blockquote {
   /*background-color: #F8EDDA;*/
   background-color: #EDEDED;
   /*color: #777;*/
-  color: #404040;
 }
 
 blockquote>:first-child {
