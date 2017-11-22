@@ -11,14 +11,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 =============================================================================*/
 
 @font-face {
-    font-family: 'CMU Serif Roman';
+    font-family: 'CMU Serif';
     font-style: normal;
     font-weight: normal;
     src: url(./mathwrite/computer_modern_serif_roman.ttf);
 }
 
 @font-face {
-    font-family: 'CMU Serif Roman';
+    font-family: 'CMU Serif';
+    font-style: italic;
+    font-weight: normal;
+    src: url(./mathwrite/computer_modern_serif_italic.ttf);
+}
+
+@font-face {
+    font-family: 'CMU Serif';
     font-style: normal;
     font-weight: bold;
     src: url(./mathwrite/computer_modern_serif_bold.ttf);
@@ -35,7 +42,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 =============================================================================*/
 
 body {
-  font-family: CMU Serif Roman, Georgia, Palatino, serif;
+  font-family: CMU Serif, Georgia, Palatino, serif;
   /*font-size: 14px;*/
   font-size: 20px;
   line-height: 1.6;
