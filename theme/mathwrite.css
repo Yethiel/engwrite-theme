@@ -44,7 +44,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 body {
   font-family: CMU Serif, Georgia, Palatino, serif;
   /*font-size: 14px;*/
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.6;
   color: #333;
   /*background-color: #FCF5ED;*/
@@ -67,6 +67,16 @@ body>*:last-child {
 
 p, blockquote, ul, ol, dl, table, pre {
   margin: 15px 0;
+}
+
+
+/* Use hr as page break */
+@media print {
+  hr {
+    page-break-after: always /* CSS 2 */; 
+    break-after: page /* CSS 3+ */; 
+    height: 0.1em; visibility: hidden /* make the horizontal line invisible but still affect layout*/;
+  }
 }
 
 /* HEADERS
@@ -107,12 +117,12 @@ h4 {
 }
 
 h5 {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 h6 {
   color: #777;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
@@ -133,12 +143,13 @@ h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
 =============================================================================*/
 
 a {
-  /*color: #AE3737;*/
+  color: #000080;
   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  /*text-decoration: underline;*/
+  border-bottom: 1px solid #000080;
 }
 
 /* LISTS
@@ -203,7 +214,7 @@ dl dd>:last-child {
 
 pre, code, tt {
   /*font-size: 12px;*/
-  font-size: 20px;
+  font-size: 16px;
   font-family: CMU Typewriter Text Regular, Consolas, "Liberation Mono", Courier, monospace;
 }
 
@@ -228,7 +239,7 @@ pre>code {
 pre {
   background-color: #f8f8f8;
   border: 1px solid #ccc;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 19px;
   overflow: auto;
   padding: 6px 10px;
